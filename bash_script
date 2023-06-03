@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo umount /Users/<user_name>/<uw_id>
+sshfs <uw_id>@linux.student.cs.uwaterloo.ca: ~/<uw_id> -o volname=<uw_id>
+
